@@ -1,0 +1,41 @@
+\documentclass[11pt] {scrreprt}
+\usepackage[a4paper,margin=.8in,footskip=0.5in]{geometry}
+\setcounter{chapter}{0}
+\renewcommand*{\chapterformat}{}
+
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\usepackage{cancel}
+\usepackage{cleveref}
+
+\usepackage{caption}
+\captionsetup{justification=centering}
+\usepackage[numbered, framed]{matlab-prettifier}
+
+
+\newcommand{\nn}{\nonumber}
+
+\begin{document}
+\begin{titlepage}
+		\centering
+		\includegraphics[scale = 0.3]{graphics/logo.pdf}\\[0.5 cm]
+		\textsc{\LARGE politecnico di torino}\\[6.5 cm]
+		\rule{\linewidth}{0.2 mm} \\
+		{ \huge Final Project report\\}
+		\rule{\linewidth}{0.2 mm} \\[3 cm]
+
+		
+		\LARGE Andrea Senacheribbe\\
+		\Large s224178\\[6cm]
+	
+		
+		\Large Bachelor degree in\\ Electronic and Communications Engineering\\
+		\Large AY 2017/18
+\end{titlepage}
+\input{task1.tex}
+\input{task2.tex}
+\input{task3.tex}
+\end{document}
